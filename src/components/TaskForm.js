@@ -19,7 +19,7 @@ class TaskForm extends Component {
             onChange={e => this.setState({ title: e.target.value })}
             value={this.state.title}
             type="text"
-            placeholder="Task"
+            placeholder="Enter Task"
           />
         </div>
         <button
@@ -27,7 +27,7 @@ class TaskForm extends Component {
           className="ui button primary"
           style={{ marginLeft: "20px" }}
         >
-          Add new
+          Add
         </button>
       </div>
     );
